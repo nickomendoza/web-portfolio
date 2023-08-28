@@ -17,6 +17,10 @@ span {
 
 /* navbar */
 .nav-logo {
+  color: #ccd7f7;
+  margin-left: 100px;
+}
+.nav-logo:hover{
   color: #62ecd0;
 }
 .nav-link {
@@ -53,10 +57,11 @@ span {
 }
 .name {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 7rem;
+  line-height: 1.2;
 }
 .developer {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
@@ -320,3 +325,19 @@ color: #62ecd0;
 
 
 
+@media (max-width: 768px) {
+  .name {
+    font-size: 4rem; 
+  }
+
+  .developer {
+    font-size: 2rem;
+  }
+  
+  .nav-logo {
+    margin-left: 5px;
+  }
+  .hello{
+    font-size: 1rem;
+  }
+}
